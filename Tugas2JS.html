@@ -1,0 +1,28 @@
+<script>
+let pegawai="Ida Natalia Br Sinaga";
+let Alamat="Medan";
+let Nohp = "0813467287";
+let Jabatan = "Manager";
+let Status = "Belum Menikah";
+let Totalgaji="";
+
+if (Jabatan <= "Manager"){
+    Totalgaji = 10000000 + 0.1*10000000 +0.1*10000000 +0.1*10000000;
+}
+else if (Jabatan <= "Assisten"){
+    Totalgaji=8000000 + 0.1*8000000 +0.1*8000000 +0.1*8000000;
+}
+else if (Jabatan = "Staff"){
+    Totalgaji=5000000 + 0.1*5000000 +0.1*5000000 +0.1*5000000;
+}
+else{
+    Totalgaji="0";
+}
+
+document.write("Nama Pegawai"+" " + ":" +" "+ pegawai+
+"<br> Alamat"+" " + ":" +" "+ Alamat+
+"<br> No Hp"+" " + ":" +" "+ Nohp+
+"<br> Jabatan"+" " + ":" +" "+ Jabatan+
+"<br> Status"+" " + ":" +" "+ Status+
+"<br> Total Gaji Pegawai"+" " + ":" +" "+ "Rp."+Totalgaji)
+</script>
