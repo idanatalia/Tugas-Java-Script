@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Hiden Foto</title>
+    <script src="jquery/jquery.js"> </script>
+</head>
+<body>
+        <script >
+    $(document).ready(function() {
+        
+        $("input").click(function(){
+            alert("Selamat Datang Di Jquery Ida Natalia Br Sinaga");
+        });
+        $("#panggil_id").css("color", "blue");
+
+        $(".panggil_class").css("color", "blue");
+        $("#p").css("color", "black");
+
+    
+      $("button").click(function () {
+            $("img").hide();
+        })
+      $("button").click(function () {
+            $("button").hide();
+        })
+
+    });
+        
+    </script>
+    <h3 id="panggil_id" >Selamat Belajar Jquery Menggunakan Pemanggilan Effect Hiden Pada Gambar </h3>
+    <p id="p">Silahkan klik  salah satu Gambar !!. <br>Maka gambar menghilang atau di hiden </p>
+    <!-- <input type="submit" value="Salam " /><br> -->
+    <button id="img"> <img src="img/f1.JPG" width="600"></button>
+    <button id="button"> <img src="img/f2.JPG" width="600"></button>
+    <button id="img"> <img src="img/f3.JPG" width="600"></button><br>
+    <h4 class="panggil_class">By.@Ida Natalia Br Sinaga </h4>
+</body>
+</html>
