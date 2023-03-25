@@ -71,7 +71,7 @@ else if($status =='menikah' && $anak >=3 && $anak <=5){
 else $tunkel = 0;
 
 $gator = $gaji + $tunjab + $tunkel;
-$zakat=($gator <=6000000) ? $gator * 0.025 : 0;
+$zakat=($gator >=6000000) ? $gator * 0.025 : 0;
 $totalgaji = $gator + $zakat;
 
 if(isset($tombol)){
